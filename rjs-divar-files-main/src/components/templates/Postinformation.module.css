@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  width: 400px;
+  border-radius: 20px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  gap: 10px;
+}
+
+.options h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.options p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.content {
+  height: 100px;
+  border: 1px solid #eaeaea;
+  padding: 25px;
+  border-radius: 10px;
+}
